@@ -1,0 +1,45 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Edgar Marquez
+   Date: 02.01.17
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+body {
+  font: Tahoma, "Geneva", sans-serif;
+}
+
+#articleheader {
+  font-size: 18px;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: rgb(125, 120, 89);
+  line-height: 3em;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+nav ul li:hover {
+  background-color: rgb(131, 121, 36);
+  list-style-image: url(wheelmarker.png);
+}
+
+#leftsection > p {
+  font-size: 22px;
+  text-transform: uppercase;
+}
