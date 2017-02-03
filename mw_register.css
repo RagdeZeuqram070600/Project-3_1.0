@@ -1,0 +1,9 @@
+div {
+  text-align: left;
+  font-size: 30px;
+}
+
+div.name label {
+  letter-spacing: .25em;
+  color: rgb(125, 120, 89);
+}
